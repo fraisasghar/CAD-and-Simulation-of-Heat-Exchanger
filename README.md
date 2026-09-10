@@ -85,23 +85,9 @@ Every simulated result is independently cross-checked by hand. Energy balance, L
 
 ## How It Works
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1c7293', 'primaryTextColor':'#dce7ef', 'primaryBorderColor':'#f26419', 'lineColor':'#f26419', 'secondaryColor':'#0b2e4f', 'tertiaryColor':'#123a5e'}}}%%
-flowchart LR
-    A[CAD Geometry] --> B[Mesh Generation]
-    B --> C[Physics Setup]
-    C --> D[CFD Solve]
-    D --> E[Post Processing]
-    E --> F[Manual Validation]
-
-    classDef inputNode fill:#0b2e4f,stroke:#f26419,stroke-width:2px,color:#dce7ef
-    classDef coreNode fill:#1c7293,stroke:#f26419,stroke-width:2px,color:#ffffff
-    classDef outputNode fill:#123a5e,stroke:#f26419,stroke-width:2px,color:#dce7ef
-
-    class A,B inputNode
-    class C,D coreNode
-    class E,F outputNode
-```
+<p align="center">
+  <img width="100%" alt="How BaffleX Works" src="assets/diagram_workflow.png" />
+</p>
 
 Every downstream panel, the field plots, the derived value tables, and the hand calculations, reads from the same converged solution, so the report and the presentation can never drift out of sync with the model.
 
@@ -109,21 +95,9 @@ Every downstream panel, the field plots, the derived value tables, and the hand 
 
 ## Boundary Conditions
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryTextColor':'#dce7ef', 'lineColor':'#f26419', 'fontFamily':'"Segoe UI", Helvetica, Arial, sans-serif', 'fontSize':'15px'}}}%%
-flowchart LR
-    H1["Hot Inlet, Shell<br/>0.5 kg/s @ 70.0 C"] --> EX["Baffled<br/>Exchanger"]
-    C1["Cold Inlet, Tube<br/>0.5 kg/s @ 25.0 C"] --> EX
-    EX --> H2["Hot Outlet, Shell<br/>48.1 C"]
-    EX --> C2["Cold Outlet, Tube<br/>47.5 C"]
-
-    classDef hot fill:#f26419,stroke:#0b2e4f,stroke-width:2px,color:#ffffff
-    classDef cold fill:#1c7293,stroke:#0b2e4f,stroke-width:2px,color:#ffffff
-    classDef core fill:#0b2e4f,stroke:#f26419,stroke-width:3px,color:#ffffff
-    class H1,H2 hot
-    class C1,C2 cold
-    class EX core
-```
+<p align="center">
+  <img width="90%" alt="Boundary Conditions" src="assets/diagram_boundary.png" />
+</p>
 
 Both streams run at an equal 0.5 kg/s, driven by a mass flow inlet and a zero gauge pressure outlet, with the shell modeled as fully adiabatic to the surroundings.
 
@@ -131,15 +105,9 @@ Both streams run at an equal 0.5 kg/s, driven by a mass flow inlet and a zero ga
 
 ## Model Components
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'pieOuterStrokeColor':'#dce7ef', 'pieSectionTextColor':'#ffffff', 'pieTitleTextColor':'#0b2e4f', 'pieStrokeColor':'#0b2e4f', 'pieLegendTextColor':'#0b2e4f', 'pieOpacity':'1', 'pie1':'#f26419', 'pie2':'#1c7293', 'pie3':'#0b2e4f', 'pie4':'#9fb6c7'}}}%%
-pie showData
-    title 16 Solid Bodies in the Assembly
-    "Tubes" : 7
-    "Baffles" : 6
-    "Nozzles" : 2
-    "Shell" : 1
-```
+<p align="center">
+  <img width="80%" alt="Model Components" src="assets/diagram_components.png" />
+</p>
 
 **Shell**: 70 mm outer radius, 608.5 mm overall length, 9 mm end caps
 **Tube Bundle**: 7 tubes, 10 mm outer diameter, 30 mm triangular pitch
@@ -219,29 +187,9 @@ Every quantity below tagged **Hand-Calculated** is derived from the port-average
 
 ## Roadmap
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryTextColor':'#ffffff', 'lineColor':'#5a6b7a', 'fontFamily':'"Segoe UI", Helvetica, Arial, sans-serif', 'fontSize':'15px'}}}%%
-flowchart TD
-    P1["Phase 1 · Parametric CAD Geometry"] --> P2["Phase 2 · Mesh Convergence Study"]
-    P2 --> P3["Phase 3 · Turbulent CFD Solve"]
-    P3 --> P4["Phase 4 · Conjugate Heat Transfer"]
-    P4 --> P5["Phase 5 · Manual Validation Suite"]
-    P5 --> P6["Phase 6 · Design Optimization Sweep"]
-
-    classDef p1 fill:#0b2e4f,stroke:#4d7bab,stroke-width:2px,color:#ffffff
-    classDef p2 fill:#6b0f1a,stroke:#a33d47,stroke-width:2px,color:#ffffff
-    classDef p3 fill:#7a5c00,stroke:#b38f1a,stroke-width:2px,color:#ffffff
-    classDef p4 fill:#8a3b00,stroke:#c2591a,stroke-width:2px,color:#ffffff
-    classDef p5 fill:#1e4620,stroke:#437a46,stroke-width:2px,color:#ffffff
-    classDef p6 fill:#063d3f,stroke:#178f93,stroke-width:2px,color:#ffffff
-
-    class P1 p1
-    class P2 p2
-    class P3 p3
-    class P4 p4
-    class P5 p5
-    class P6 p6
-```
+<p align="center">
+  <img width="65%" alt="BaffleX Development Roadmap" src="assets/diagram_roadmap.png" />
+</p>
 
 Phases 1 through 5 are complete. Phase 6 opens the geometry to a parametric sweep, more baffles, tighter pitch, longer shell, to push effectiveness past the current 49.3% without a meaningful pressure drop penalty.
 
