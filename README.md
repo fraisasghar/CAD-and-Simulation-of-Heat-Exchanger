@@ -5,14 +5,15 @@
 <h3 align="center">CAD, CFD Simulation, and Independently Verified Thermal Design of a Baffled Shell and Tube Heat Exchanger</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Complete-f26419?style=for-the-badge&labelColor=0b2e4f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjRkZGRkZGIj48cGF0aCBkPSJNNTA0IDI1NmMwIDEzNi45NjctMTExLjAzMyAyNDgtMjQ4IDI0OFM4IDM5Mi45NjcgOCAyNTYgMTE5LjAzMyA4IDI1NiA4czI0OCAxMTEuMDMzIDI0OCAyNDh6TTIyNy4zMTQgMzg3LjMxNGwxODQtMTg0YzYuMjQ4LTYuMjQ4IDYuMjQ4LTE2LjM3OSAwLTIyLjYyN2wtMjIuNjI3LTIyLjYyN2MtNi4yNDgtNi4yNDktMTYuMzc5LTYuMjQ5LTIyLjYyOCAwTDIxNiAzMDguMTE4bC03MC4wNTktNzAuMDU5Yy02LjI0OC02LjI0OC0xNi4zNzktNi4yNDgtMjIuNjI4IDBsLTIyLjYyNyAyMi42MjdjLTYuMjQ4IDYuMjQ4LTYuMjQ4IDE2LjM3OSAwIDIyLjYyN2wxMDQgMTA0YzYuMjQ5IDYuMjQ5IDE2LjM3OSA2LjI0OSAyMi42MjguMDAxeiI+PC9wYXRoPjwvc3ZnPg==" />
-  <img src="https://img.shields.io/badge/Domain-Thermal%20Fluid%20Engineering-f26419?style=for-the-badge&labelColor=0b2e4f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjRkZGRkZGIj48cGF0aCBkPSJNMTkyIDM4NGMwIDM1LjM0Ni0yOC42NTQgNjQtNjQgNjRzLTY0LTI4LjY1NC02NC02NGMwLTIzLjY4NSAxMi44NzYtNDQuMzQ5IDMyLTU1LjQxN1YyMjRjMC0xNy42NzMgMTQuMzI3LTMyIDMyLTMyczMyIDE0LjMyNyAzMiAzMnYxMDQuNTgzYzE5LjEyNCAxMS4wNjggMzIgMzEuNzMyIDMyIDU1LjQxN3ptMzItODQuNjUzYzE5LjkxMiAyMi41NjMgMzIgNTIuMTk0IDMyIDg0LjY1MyAwIDcwLjY5Ni01Ny4zMDMgMTI4LTEyOCAxMjgtLjI5OSAwLS42MDktLjAwMS0uOTA5LS4wMDNDNTYuNzg5IDUxMS41MDktLjM1NyA0NTMuNjM2LjAwMiAzODMuMzMzLjE2NiAzNTEuMTM1IDEyLjIyNSAzMjEuNzU1IDMyIDI5OS4zNDdWOTZjMC01My4wMTkgNDIuOTgxLTk2IDk2LTk2czk2IDQyLjk4MSA5NiA5NnYyMDMuMzQ3ek0yMDggMzg0YzAtMzQuMzM5LTE5LjM3LTUyLjE5LTMyLTY2LjUwMlY5NmMwLTI2LjQ2Ny0yMS41MzMtNDgtNDgtNDhTODAgNjkuNTMzIDgwIDk2djIyMS40OThjLTEyLjczMiAxNC40MjgtMzEuODI1IDMyLjEtMzEuOTk5IDY2LjA4LS4yMjQgNDMuODc2IDM1LjU2MyA4MC4xMTYgNzkuNDIzIDgwLjQyTDEyOCA0NjRjNDQuMTEyIDAgODAtMzUuODg4IDgwLTgweiI+PC9wYXRoPjwvc3ZnPg==" />
   <img src="https://img.shields.io/badge/Solver-COMSOL%20Multiphysics-f26419?style=for-the-badge&labelColor=0b2e4f&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjRkZGRkZGIj48cGF0aCBkPSJNMjIzLjk5OTA4LDIyNGEzMiwzMiwwLDEsMCwzMi4wMDc4MiwzMkEzMi4wNjQzMSwzMi4wNjQzMSwwLDAsMCwyMjMuOTk5MDgsMjI0Wm0yMTQuMTcyLTk2Yy0xMC44NzctMTkuNS00MC41MDk3OS01MC43NS0xMTYuMjc1NDQtNDEuODc1QzMwMC4zOTE2OCwzNC44NzUsMjY3LjYzMzg2LDAsMjIzLjk5OTA4LDBzLTc2LjM5MDY2LDM0Ljg3NS05Ny44OTY1Myw4Ni4xMjVDNTAuMzM2OSw3Ny4zNzUsMjAuNzA2LDEwOC41LDkuODI5MDcsMTI4LTYuNTQ5ODQsMTU3LjM3NS01LjE3NDg0LDIwMS4xMjUsMzQuOTU4LDI1Ni01LjE3NDg0LDMxMC44NzUtNi41NDk4NCwzNTQuNjI1LDkuODI5MDcsMzg0YzI5LjEzMDg3LDUyLjM3NSwxMDEuNjQ2NTIsNDMuNjI1LDExNi4yNzM0OCw0MS44NzVDMTQ3LjYwODQyLDQ3Ny4xMjUsMTgwLjM2NDI5LDUxMiwyMjMuOTk5MDgsNTEyczc2LjM5MjYtMzQuODc1LDk3Ljg5NjUyLTg2LjEyNWMxNC42Mjg5MSwxLjc1LDg3LjE0NDU2LDEwLjUsMTE2LjI3NTQ0LTQxLjg3NUM0NTQuNTUsMzU0LjYyNSw0NTMuMTc1LDMxMC44NzUsNDEzLjA0MDE3LDI1Niw0NTMuMTc1LDIwMS4xMjUsNDU0LjU1LDE1Ny4zNzUsNDM4LjE3MSwxMjhaTTYzLjMzODg2LDM1MmMtNC03LjI1LS4xMjUtMjQuNzUsMTUuMDAzOTEtNDguMjUsNi44NzY5NSw2LjUsMTQuMTI4OTEsMTIuODc1LDIxLjg4MDg3LDE5LjEyNSwxLjYyNSwxMy43NSw0LDI3LjEyNSw2Ljc1LDQwLjEyNUM4Mi4zNDQ3MiwzNjMuODc1LDY3LjA5MDgxLDM1OC42MjUsNjMuMzM4ODYsMzUyWm0zNi44ODQ3OC0xNjIuODc1Yy03Ljc1Miw2LjI1LTE1LjAwMzkyLDEyLjYyNS0yMS44ODA4NywxOS4xMjUtMTUuMTI4OTEtMjMuNS0xOS4wMDM5Mi00MS0xNS4wMDM5MS00OC4yNSwzLjM3Ny02LjEyNSwxNi4zNzg5MS0xMS41LDM3Ljg4NDc4LTExLjUsMS43NSwwLDMuODc1LjM3NSw1Ljc1LjM3NUMxMDQuMDk4NjQsMTYyLjI1LDEwMS44NDg2NCwxNzUuNjI1LDEwMC4yMjM2NCwxODkuMTI1Wk0yMjMuOTk5MDgsNjRjOS41MDE5NSwwLDIyLjI1NTg2LDEzLjUsMzMuODgyODIsMzcuMjUtMTEuMjUyLDMuNzUtMjIuNTAzOTEsOC0zMy44ODI4MiwxMi44NzUtMTEuMzc3LTQuODc1LTIyLjYyODkyLTkuMTI1LTMzLjg4MjgzLTEyLjg3NUMyMDEuNzQ1MTYsNzcuNSwyMTQuNDk3MTIsNjQsMjIzLjk5OTA4LDY0Wm0wLDM4NGMtOS41MDIsMC0yMi4yNTM5Mi0xMy41LTMzLjg4MjgzLTM3LjI1LDExLjI1MzkxLTMuNzUsMjIuNTA1ODctOCwzMy44ODI4My0xMi44NzVDMjM1LjM3OCw0MDIuNzUsMjQ2LjYyOTk0LDQwNywyNTcuODgxOSw0MTAuNzUsMjQ2LjI1NDk0LDQzNC41LDIzMy41MDEsNDQ4LDIyMy45OTkwOCw0NDhabTAtMTEyYTgwLDgwLDAsMSwxLDgwLTgwQTgwLjAwMDIzLDgwLjAwMDIzLDAsMCwxLDIyMy45OTkwOCwzMzZaTTM4NC42NTkzLDM1MmMtMy42MjUsNi42MjUtMTkuMDAzOTIsMTEuODc1LTQzLjYzNDc5LDExLDIuNzUyLTEzLDUuMTI3LTI2LjM3NSw2Ljc1Mi00MC4xMjUsNy43NTE5NS02LjI1LDE1LjAwMzkxLTEyLjYyNSwyMS44Nzg5MS0xOS4xMjVDMzg0Ljc4NDMsMzI3LjI1LDM4OC42NTkzLDM0NC43NSwzODQuNjU5MywzNTJaTTM2OS42NTUzOCwyMDguMjVjLTYuODc1LTYuNS0xNC4xMjctMTIuODc1LTIxLjg3ODkxLTE5LjEyNS0xLjYyNS0xMy41LTMuODc1LTI2Ljg3NS02Ljc1Mi00MC4yNSwxLjg3NSwwLDQuMDAyLS4zNzUsNS43NTItLjM3NSwyMS41MDM5MSwwLDM0LjUwNzgyLDUuMzc1LDM3Ljg4MjgzLDExLjVDMzg4LjY1OTMsMTY3LjI1LDM4NC43ODQzLDE4NC43NSwzNjkuNjU1MzgsMjA4LjI1WiI+PC9wYXRoPjwvc3ZnPg==" />
+  <img src="https://img.shields.io/badge/Turbulence-k%20Epsilon%20RANS-f26419?style=for-the-badge&labelColor=0b2e4f&logoColor=dce7ef" />
+  <img src="https://img.shields.io/badge/Coupling-Conjugate%20Heat%20Transfer-f26419?style=for-the-badge&labelColor=0b2e4f&logoColor=dce7ef" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Report-Word-1c7293?style=for-the-badge&labelColor=0b2e4f&logo=microsoftword&logoColor=dce7ef" />
-  <img src="https://img.shields.io/badge/Slides-PowerPoint-1c7293?style=for-the-badge&labelColor=0b2e4f&logo=microsoftpowerpoint&logoColor=dce7ef" />
+  <img src="https://img.shields.io/badge/Tubes-7-1c7293?style=for-the-badge&labelColor=0b2e4f&logoColor=dce7ef" />
+  <img src="https://img.shields.io/badge/Baffles-6-1c7293?style=for-the-badge&labelColor=0b2e4f&logoColor=dce7ef" />
+  <img src="https://img.shields.io/badge/Reynolds-up%20to%2013%2C000-1c7293?style=for-the-badge&labelColor=0b2e4f&logoColor=dce7ef" />
   <img src="https://img.shields.io/badge/License-MIT-1c7293?style=for-the-badge&labelColor=0b2e4f&logo=opensourceinitiative&logoColor=dce7ef" />
 </p>
 
@@ -28,9 +29,9 @@
 
 ## Overview
 
-BaffleX is a complete thermal-fluid engineering study of a seven-tube, six-baffle shell and tube heat exchanger, carried out end to end in COMSOL Multiphysics. A hot water stream sweeps across a baffled tube bundle while a cold water stream flows through the tubes, and the two exchange heat through conjugate wall conduction rather than an assumed heat transfer coefficient.
+BaffleX is a complete thermal fluid engineering study of a seven tube, six baffle shell and tube heat exchanger, carried out end to end in COMSOL Multiphysics. A hot water stream sweeps across a baffled tube bundle while a cold water stream flows through the tubes, and the two exchange heat through conjugate wall conduction rather than an assumed heat transfer coefficient.
 
-Every simulated result is independently cross-checked by hand. Energy balance, LMTD, effectiveness-NTU, and Reynolds number calculations are carried out from first principles using only the port-averaged CFD outputs, closing to within a fraction of a percent of the simulation itself.
+Every simulated result is independently cross checked by hand. Energy balance, LMTD, effectiveness NTU, and Reynolds number calculations are carried out from first principles using only the port averaged CFD outputs, closing to within a fraction of a percent of the simulation itself.
 
 <br>
 
@@ -118,18 +119,18 @@ Both streams run at an equal 0.5 kg/s, driven by a mass flow inlet and a zero ga
 
 ## Physics Setup
 
-**Turbulence**: k-epsilon RANS with wall functions, justified by Reynolds numbers above 10,000 on both streams
+**Turbulence**: k epsilon RANS with wall functions, justified by Reynolds numbers above 10,000 on both streams
 **Heat Transfer**: Conjugate coupling through the tube walls via Nonisothermal Flow multiphysics, no assumed coefficient
-**Mesh**: Free tetrahedral with five-layer boundary inflation, locally refined at every curved wall
-**Materials**: Aluminium solid domain, temperature-dependent water properties on both streams
+**Mesh**: Free tetrahedral with five layer boundary inflation, locally refined at every curved wall
+**Materials**: Aluminium solid domain, temperature dependent water properties on both streams
 
 <br>
 
 ## Results and Manual Validation
 
-Every quantity below tagged **Hand-Calculated** is derived from the port-averaged CFD values using first-principles heat exchanger theory, energy balance, LMTD, effectiveness-NTU, and Reynolds analysis, not read directly from COMSOL.
+Every quantity below tagged **Hand Calculated** is derived from the port averaged CFD values using first principles heat exchanger theory, energy balance, LMTD, effectiveness NTU, and Reynolds analysis, not read directly from COMSOL.
 
-**Port Conditions** — *source: CFD*
+**Port Conditions** (source: CFD)
 
 | Port | Temperature | Gauge Pressure |
 |---|---|---|
@@ -138,7 +139,7 @@ Every quantity below tagged **Hand-Calculated** is derived from the port-average
 | Cold Inlet, Tube | 25.29 °C | 79.10 Pa |
 | Cold Outlet, Tube | 47.45 °C | −2.07 Pa |
 
-**Energy Balance** — *Hand-Calculated*
+**Energy Balance** (Hand Calculated)
 
 | Quantity | Value |
 |---|---|
@@ -147,7 +148,7 @@ Every quantity below tagged **Hand-Calculated** is derived from the port-average
 | Average heat duty, Q | 46.16 kW |
 | Balance closure | 0.68% |
 
-**LMTD and Overall Heat Transfer Coefficient** — *Hand-Calculated*
+**LMTD and Overall Heat Transfer Coefficient** (Hand Calculated)
 
 | Quantity | Value |
 |---|---|
@@ -157,7 +158,7 @@ Every quantity below tagged **Hand-Calculated** is derived from the port-average
 | Heat transfer area, A | 0.1338 m² |
 | Overall U, LMTD method | 15,180 W/(m²·K) |
 
-**Effectiveness-NTU Cross-Check** — *Hand-Calculated*
+**Effectiveness NTU Cross Check** (Hand Calculated)
 
 | Quantity | Value |
 |---|---|
@@ -165,10 +166,10 @@ Every quantity below tagged **Hand-Calculated** is derived from the port-average
 | Maximum possible heat transfer, Q max | 93.63 kW |
 | Effectiveness, ε | 49.3% |
 | Number of transfer units, NTU | 0.972 |
-| Overall U, effectiveness-NTU method | 15,190 W/(m²·K) |
+| Overall U, effectiveness NTU method | 15,190 W/(m²·K) |
 | Agreement between the two U methods | within 0.1% |
 
-**Reynolds Number Check** — *Hand-Calculated*
+**Reynolds Number Check** (Hand Calculated)
 
 | Stream | Reynolds Number | Regime |
 |---|---|---|
@@ -176,7 +177,7 @@ Every quantity below tagged **Hand-Calculated** is derived from the port-average
 | Shell side, local at baffle window | ≈ 11,500 | Turbulent |
 | Shell side, bulk average | ≈ 700 | Laminar, bulk only |
 
-**Pressure Drop** — *source: CFD*
+**Pressure Drop** (source: CFD)
 
 | Stream | Pressure Drop |
 |---|---|
@@ -206,7 +207,7 @@ COMSOL Multiphysics, CFD Module and Heat Transfer Module, for geometry, meshing,
 1. Open the model in COMSOL Multiphysics (CFD Module and Heat Transfer Module required).
 2. Rebuild the geometry sequence to regenerate the parametric shell, tube bundle, and baffles.
 3. Run the predefined free tetrahedral mesh sequence, including boundary layers.
-4. Solve the Stationary study coupling Turbulent Flow, k-epsilon with Heat Transfer in Fluids.
+4. Solve the Stationary study coupling Turbulent Flow, k epsilon with Heat Transfer in Fluids.
 5. Regenerate derived values and field plots, or open the included report and slides directly.
 
 <br>
@@ -241,7 +242,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 <div align="center">
 If this project was useful to you, consider giving it a star. ⭐
 
-<p3 align="center"><sub>Built for the Mechanical &amp; Thermal-Fluid Engineering community &nbsp;&middot;&nbsp; Happy building</sub></p3>
+<p3 align="center"><sub>Built for the Mechanical &amp; Thermal Fluid Engineering community &nbsp;&middot;&nbsp; Happy building</sub></p3>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2e4f,50:1c7293,100:f26419&height=3">
