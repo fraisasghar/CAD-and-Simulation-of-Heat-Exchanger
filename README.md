@@ -80,38 +80,24 @@ Every simulated result is independently cross checked by hand. Energy balance, L
 
 <br>
 
+
+
+
 ## How It Works
-
+ 
 <p align="center">
-  <img width="100%" alt="How BaffleX Works" src="assets/diagram_workflow.png" />
+  <img width="100%" alt="How BaffleX Works" src="assets/diagram_workflow.svg" />
 </p>
-
 Every downstream panel, the field plots, the derived value tables, and the hand calculations, reads from the same converged solution, so the report and the presentation can never drift out of sync with the model.
-
+ 
 <br>
 
-## Boundary Conditions
 
-<p align="center">
-  <img width="90%" alt="Boundary Conditions" src="assets/diagram_boundary.png" />
-</p>
 
-Both streams run at an equal 0.5 kg/s, driven by a mass flow inlet and a zero gauge pressure outlet, with the shell modeled as fully adiabatic to the surroundings.
 
-<br>
 
-## Model Components
 
-<p align="center">
-  <img width="80%" alt="Model Components" src="assets/diagram_components.png" />
-</p>
 
-**Shell**: 70 mm outer radius, 608.5 mm overall length, 9 mm end caps
-**Tube Bundle**: 7 tubes, 10 mm outer diameter, 30 mm triangular pitch
-**Baffle Plates**: 6 segmental baffles, 60 mm radius, 80 mm pitch, alternating cut
-**Nozzles**: radial inlet and outlet stubs at diagonally opposite ends
-
-<br>
 
 ## Physics Setup
 
@@ -183,14 +169,14 @@ Every quantity below tagged **Hand Calculated** is derived from the port average
 <br>
 
 ## Roadmap
-
+ 
 <p align="center">
-  <img width="65%" alt="BaffleX Development Roadmap" src="assets/diagram_roadmap.png" />
+  <img width="100%" alt="BaffleX Development Roadmap" src="assets/diagram_roadmap.svg" />
 </p>
-
 Phases 1 through 5 are complete. Phase 6 opens the geometry to a parametric sweep, more baffles, tighter pitch, longer shell, to push effectiveness past the current 49.3% without a meaningful pressure drop penalty.
 
-<br>
+
+
 
 ## Tech Stack
 
