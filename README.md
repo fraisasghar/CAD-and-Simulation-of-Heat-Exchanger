@@ -25,19 +25,11 @@
 
 ## Overview
 
-BaffleX is a complete thermal fluid engineering study of a seven tube, six baffle shell and tube heat exchanger, carried out end to end in COMSOL Multiphysics. A hot water stream sweeps across a baffled tube bundle while a cold water stream flows through the tubes, and the two exchange heat through conjugate wall conduction rather than an assumed heat transfer coefficient.
+Baffled Shell & Tube Heat Exchanger is a complete thermal fluid engineering study of a seven tube, six baffle shell and tube heat exchanger, carried out end to end in COMSOL Multiphysics. A hot water stream sweeps across a baffled tube bundle while a cold water stream flows through the tubes, and the two exchange heat through conjugate wall conduction rather than an assumed heat transfer coefficient.
 
 Every simulated result is independently cross checked by hand. Energy balance, LMTD, effectiveness NTU, and Reynolds number calculations are carried out from first principles using only the port averaged CFD outputs, closing to within a fraction of a percent of the simulation itself.
 
 <br>
-
-
-
-
-
-
-
-
 
 
 
@@ -109,9 +101,6 @@ Every simulated result is independently cross checked by hand. Energy balance, L
     </td>
   </tr>
 </table>
-
-
-
 
 
 
@@ -258,7 +247,7 @@ Distributed under the MIT License. See `LICENSE` for details.
 <div align="center">
 If this project was useful to you, consider giving it a star. ⭐
 
-<p3 align="center"><sub>Built for the Mechanical &amp; Thermal Fluid Engineering community &nbsp;&middot;&nbsp; Happy building</sub></p3>
+<p1 align="center"><sub>Built for the Mechanical &amp; Thermal Fluid Engineering community &nbsp;&middot;&nbsp; Happy building</sub></p1>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2e4f,50:1c7293,100:f26419&height=3">
