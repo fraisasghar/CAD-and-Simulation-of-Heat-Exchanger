@@ -83,6 +83,29 @@ Every simulated result is independently cross checked by hand. Energy balance, L
 
 
 
+
+<img width="350" height="155" alt="image" src="https://github.com/user-attachments/assets/50b20093-2bc4-4e85-8b1d-1cc73ad92d8b" /> CAD Model
+<img width="397" height="158" alt="image" src="https://github.com/user-attachments/assets/f83f3721-0d09-4546-8b13-f77d6641f992" /> CAD Inner View
+
+
+<img width="418" height="195" alt="image" src="https://github.com/user-attachments/assets/f103a21d-fe52-4683-9501-3744d0f380bf" /> Mesh
+<img width="407" height="203" alt="image" src="https://github.com/user-attachments/assets/48312a74-983c-4439-8f6a-1d75ba79a14e" /> Mesh Inner View
+
+
+<img width="412" height="204" alt="image" src="https://github.com/user-attachments/assets/41077a3a-52f1-4f83-9666-edb0408cbb19" /> Temperature
+<img width="398" height="202" alt="image" src="https://github.com/user-attachments/assets/a9f0d5d0-cb8f-44d9-8045-68c7ce9f9b0a" /> Temperature Inner View
+
+
+<img width="404" height="197" alt="image" src="https://github.com/user-attachments/assets/f573dac7-b78b-4903-9f7a-0fec85104a93" /> Velocity
+<img width="402" height="199" alt="image" src="https://github.com/user-attachments/assets/f1024c0c-24a9-45cd-9d50-312a2bfc7af3" /> Velocity Streamline
+
+
+
+
+
+
+
+
 ## How It Works
  
 <p align="center">
