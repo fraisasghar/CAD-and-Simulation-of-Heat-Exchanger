@@ -19,11 +19,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0b2e4f,50:1c7293,100:f26419&height=3">
 
-<div align="center">
 
-**[View the Report](./report/Baffled_Shell_Tube_Heat_Exchanger_Report.docx)** &nbsp;•&nbsp; **[View the Presentation](./Presentation/Baffled Shell Tube Heat Exchanger Presentation.pptx)** &nbsp;•&nbsp; **[Report a Bug](../../issues)**
-
-</div>
 
 <br>
 
