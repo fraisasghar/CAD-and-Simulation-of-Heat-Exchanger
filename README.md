@@ -100,6 +100,9 @@ Every simulated result is independently cross checked by hand. Energy balance, L
 <img width="402" height="199" alt="image" src="https://github.com/user-attachments/assets/f1024c0c-24a9-45cd-9d50-312a2bfc7af3" /> Velocity Streamline
 
 
+<img width="394" height="196" alt="image" src="https://github.com/user-attachments/assets/930dd98b-304b-4823-a4e3-ac4eb497f0c7" /> Pressure
+<img width="392" height="198" alt="image" src="https://github.com/user-attachments/assets/5f1f3ef1-401b-4b5e-8c1b-a96969e0b469" /> Pressure Inner View
+
 
 
 
