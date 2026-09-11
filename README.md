@@ -21,7 +21,7 @@
 
 <div align="center">
 
-**[View the Report](./report/Baffled_Shell_Tube_Heat_Exchanger_Report.docx)** &nbsp;•&nbsp; **[View the Presentation](./slides/Baffled_Shell_Tube_Heat_Exchanger_Presentation.pptx)** &nbsp;•&nbsp; **[Report a Bug](../../issues)**
+**[View the Report](./report/Baffled_Shell_Tube_Heat_Exchanger_Report.docx)** &nbsp;•&nbsp; **[View the Presentation](./Presentation/Baffled Shell Tube Heat Exchanger Presentation.pptx)** &nbsp;•&nbsp; **[Report a Bug](../../issues)**
 
 </div>
 
