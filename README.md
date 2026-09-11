@@ -31,77 +31,85 @@ Every simulated result is independently cross checked by hand. Energy balance, L
 
 <br>
 
-## Screenshots
+
+
+
+
+
+
+
+
+
+
+
 
 <table>
-<tr>
-<td width="50%">
+  <tr>
+    <td align="center">
+      <img width="350" height="155" alt="CAD Model" src="https://github.com/user-attachments/assets/50b20093-2bc4-4e85-8b1d-1cc73ad92d8b" />
+      <br />
+      <b>CAD Model</b>
+    </td>
+    <td align="center">
+      <img width="397" height="158" alt="CAD Inner View" src="https://github.com/user-attachments/assets/f83f3721-0d09-4546-8b13-f77d6641f992" />
+      <br />
+      <b>CAD Inner View</b>
+    </td>
+  </tr>
 
-**CAD Geometry**
-<img width="100%" alt="CAD Geometry" src="assets/fig_cad_geometry.png" />
+  <tr>
+    <td align="center">
+      <img width="418" height="195" alt="Mesh" src="https://github.com/user-attachments/assets/f103a21d-fe52-4683-9501-3744d0f380bf" />
+      <br />
+      <b>Mesh</b>
+    </td>
+    <td align="center">
+      <img width="407" height="203" alt="Mesh Inner View" src="https://github.com/user-attachments/assets/48312a74-983c-4439-8f6a-1d75ba79a14e" />
+      <br />
+      <b>Mesh Inner View</b>
+    </td>
+  </tr>
 
-</td>
-<td width="50%">
+  <tr>
+    <td align="center">
+      <img width="412" height="204" alt="Temperature" src="https://github.com/user-attachments/assets/41077a3a-52f1-4f83-9666-edb0408cbb19" />
+      <br />
+      <b>Temperature</b>
+    </td>
+    <td align="center">
+      <img width="398" height="202" alt="Temperature Inner View" src="https://github.com/user-attachments/assets/a9f0d5d0-cb8f-44d9-8045-68c7ce9f9b0a" />
+      <br />
+      <b>Temperature Inner View</b>
+    </td>
+  </tr>
 
-**Computational Mesh**
-<img width="100%" alt="Computational Mesh" src="assets/fig_mesh.png" />
+  <tr>
+    <td align="center">
+      <img width="404" height="197" alt="Velocity" src="https://github.com/user-attachments/assets/f573dac7-b78b-4903-9f7a-0fec85104a93" />
+      <br />
+      <b>Velocity</b>
+    </td>
+    <td align="center">
+      <img width="402" height="199" alt="Velocity Streamline" src="https://github.com/user-attachments/assets/f1024c0c-24a9-45cd-9d50-312a2bfc7af3" />
+      <br />
+      <b>Velocity Streamline</b>
+    </td>
+  </tr>
 
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Temperature Field**
-<img width="100%" alt="Temperature Field" src="assets/fig_temperature.png" />
-
-</td>
-<td width="50%">
-
-**Isothermal Contours**
-<img width="100%" alt="Isothermal Contours" src="assets/fig_isotherms.png" />
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Velocity Field**
-<img width="100%" alt="Velocity Field" src="assets/fig_velocity.png" />
-
-</td>
-<td width="50%">
-
-**Pressure Field**
-<img width="100%" alt="Pressure Field" src="assets/fig_pressure.png" />
-
-</td>
-</tr>
+  <tr>
+    <td align="center">
+      <img width="394" height="196" alt="Pressure" src="https://github.com/user-attachments/assets/930dd98b-304b-4823-a4e3-ac4eb497f0c7" />
+      <br />
+      <b>Pressure</b>
+    </td>
+    <td align="center">
+      <img width="392" height="198" alt="Pressure Inner View" src="https://github.com/user-attachments/assets/5f1f3ef1-401b-4b5e-8c1b-a96969e0b469" />
+      <br />
+      <b>Pressure Inner View</b>
+    </td>
+  </tr>
 </table>
 
-<br>
-
-
-
-
-
-<img width="350" height="155" alt="image" src="https://github.com/user-attachments/assets/50b20093-2bc4-4e85-8b1d-1cc73ad92d8b" /> CAD Model
-<img width="397" height="158" alt="image" src="https://github.com/user-attachments/assets/f83f3721-0d09-4546-8b13-f77d6641f992" /> CAD Inner View
-
-
-<img width="418" height="195" alt="image" src="https://github.com/user-attachments/assets/f103a21d-fe52-4683-9501-3744d0f380bf" /> Mesh
-<img width="407" height="203" alt="image" src="https://github.com/user-attachments/assets/48312a74-983c-4439-8f6a-1d75ba79a14e" /> Mesh Inner View
-
-
-<img width="412" height="204" alt="image" src="https://github.com/user-attachments/assets/41077a3a-52f1-4f83-9666-edb0408cbb19" /> Temperature
-<img width="398" height="202" alt="image" src="https://github.com/user-attachments/assets/a9f0d5d0-cb8f-44d9-8045-68c7ce9f9b0a" /> Temperature Inner View
-
-
-<img width="404" height="197" alt="image" src="https://github.com/user-attachments/assets/f573dac7-b78b-4903-9f7a-0fec85104a93" /> Velocity
-<img width="402" height="199" alt="image" src="https://github.com/user-attachments/assets/f1024c0c-24a9-45cd-9d50-312a2bfc7af3" /> Velocity Streamline
-
-
-<img width="394" height="196" alt="image" src="https://github.com/user-attachments/assets/930dd98b-304b-4823-a4e3-ac4eb497f0c7" /> Pressure
-<img width="392" height="198" alt="image" src="https://github.com/user-attachments/assets/5f1f3ef1-401b-4b5e-8c1b-a96969e0b469" /> Pressure Inner View
 
 
 
