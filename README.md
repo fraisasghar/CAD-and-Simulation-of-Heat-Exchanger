@@ -43,7 +43,7 @@ Every simulated result is independently cross checked by hand. Energy balance, L
       <b>CAD Model</b>
     </td>
     <td align="center">
-      <img width="397" height="158" alt="CAD Inner View" src="https://github.com/user-attachments/assets/f83f3721-0d09-4546-8b13-f77d6641f992" />
+      <img width="432" height="149" alt="image" src="https://github.com/user-attachments/assets/814d1172-4c68-42ae-90ee-d16c53031059" />
       <br />
       <b>CAD Inner View</b>
     </td>
