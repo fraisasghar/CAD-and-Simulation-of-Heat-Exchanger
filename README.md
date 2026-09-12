@@ -38,7 +38,7 @@ Every simulated result is independently cross checked by hand. Energy balance, L
 <table>
   <tr>
     <td align="center">
-      <img width="367" height="175" alt="image" src="https://github.com/user-attachments/assets/5af52c7f-66de-4d3e-8652-e35daafe0b2f" />
+      <img width="361" height="158" alt="image" src="https://github.com/user-attachments/assets/5670326e-0452-4430-a498-797abb03f31b" />
       <br />
       <b>CAD Model</b>
     </td>
